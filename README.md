@@ -74,7 +74,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
     <li>From the Installation Files, download <b>PHP Manager</b> (PHPManagerForIIS_V1.5.0.msi) and <b>Rewrite Module</b> (rewrite_amd64_en-US.msi). Install both </li>
 
 <p align="center">
-        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/e587309d-cddd-488c-89ab-8daf8a03e88d" height="80%" width="60%" />
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/e587309d-cddd-488c-89ab-8daf8a03e88d" height="80%" width="80%" />
    </p>
     
    <li>Create a Folder in your VM's C Drive and name it <b>PHP</b></li>
@@ -89,7 +89,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
       <ul>
 
 <p align="center">
-        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/f0ee0ae6-9b99-4810-a9d5-297ebc8f4a11" height="80%" width="60%" />
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/f0ee0ae6-9b99-4810-a9d5-297ebc8f4a11" height="80%" width="80%" />
    </p>
      
   </ul>
@@ -98,10 +98,10 @@ osTicket is an open source support ticketing system. This tutorial will outline 
       <ul>
        <li>After installing, launch the <b>Configuration Wizard</b></li>
         <li>Check <b>Install As Window Service</b>, for this tutorial our Service Name will stay as <b>MySQL</b></li>
-        <li>Check <b>Modify Security Settings</b> and for this tutorial we'll set the password as <b>Password1</b></li>
+        <li>Check <b>Modify Security Settings</b> and for this tutorial we'll set the password as <b>Password1</b> and then execute to finish installation</li>
 
 <p align="center">
-        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/6f736192-60e8-4ca8-aacd-7df848b89c55" height="80%" width="60%" />
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/6f736192-60e8-4ca8-aacd-7df848b89c55" height="60%" width="40%" />
    </p>
      
   </ul>
@@ -113,14 +113,20 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 
 <p>
   <ul>
-    <li>Open <b>Internet Information Services (IIS) Manager</b> and run it as Administrator</li>
+    <li> In your start menu search <b>Internet Information Services (IIS) Manager</b> and run it as Administrator</li>
     <ul>
-      <li><b>PHP Manager</b> and <b>URL Rewrite</b> should be found in our IIS Manager due to the PHP Manager and Rewrite Modules files we have downloaded initially </li>
-      <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/8392f072-ba16-43db-898e-aa807c93d4f3" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-    </ul>
+      <li> You should see <b>PHP Manager</b> and <b>URL Rewrite</b> in your IIS Manager due to the PHP Manager and Rewrite Modules files we just downloaded </li>
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/dce39db3-ddba-4b58-a340-a0d9700130e8" height="80%" width="80%" />
+   </p>
+      </ul>
     <li>Go to <b>PHP Manager</b> and click on <b>Register new PHP Version</b>, set the directory to the <b>php-cgi</b> file found in the PHP folder we've set in C Drive (C:\PHP)</li>
     <ul>
-      <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/640439ed-5a37-470d-9451-836176f74ff8" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/37b33164-dd38-4e35-a489-25198a448d1b" height="80%" width="80%" />
+   </p>
+      
     </ul>
     <li>Optional but Recommened: Refresh the IIS Manager Server by going to <b>Actions</b> and under <b>Manage Server</b> click on <b>Restart</b></li>
   </ul>
