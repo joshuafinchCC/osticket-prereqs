@@ -96,10 +96,14 @@ osTicket is an open source support ticketing system. This tutorial will outline 
     <li>From the Installation Files, download and install <b>VC_redist.x86.exe</b></li>
     <li>From the Installation Files, download and install <b>MySQL 5.5.62</b> (mysql-5.5.62-win32.msi)</li>
       <ul>
-        <li>After installing, launch the <b>Configuration Wizard</b></li>
+       <li>After installing, launch the <b>Configuration Wizard</b></li>
         <li>Check <b>Install As Window Service</b>, for this tutorial our Service Name will stay as <b>MySQL</b></li>
         <li>Check <b>Modify Security Settings</b> and for this tutorial we'll set the password as <b>Password1</b></li>
-      </ul>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/6f736192-60e8-4ca8-aacd-7df848b89c55" height="80%" width="60%" />
+   </p>
+     
   </ul>
 </p>
 
