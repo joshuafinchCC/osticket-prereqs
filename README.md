@@ -71,16 +71,28 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 <p>
   <ul>
     <li><b>NOTE:</b> <i> Your download speeds will vary depending on the VM's CPU and Google Drive's virus scanning speed </i></li>
-    <li>From the Installation Files, download <b>PHP Manager</b> (PHPManagerForIIS_V1.5.0.msi) and <b>Rewrite Module</b> (rewrite_amd64_en-US.msi) </li>
-    <li>Create a Folder in your VM's C Drive and name it <b>PHP</b></li>
+    <li>From the Installation Files, download <b>PHP Manager</b> (PHPManagerForIIS_V1.5.0.msi) and <b>Rewrite Module</b> (rewrite_amd64_en-US.msi). Install both </li>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/e587309d-cddd-488c-89ab-8daf8a03e88d" height="80%" width="60%" />
+   </p>
+    
+   <li>Create a Folder in your VM's C Drive and name it <b>PHP</b></li>
       <ul>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/04098ba9-26d5-4291-9431-7d2fd3200fc4" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-      </ul>
-    <li>From the Installation Files, download the zip file <b>PHP 7.3.8</b> (php-7.3.8-nts-Win32-VC15-x86.zip) then unzip the contents into PHP folder we've made (C:\ PHP)</li>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/192612f8-01fd-4e1a-8939-cb1abfba3755" height="80%" width="60%" />
+   </p>
+       
+  </ul>
+    <li>From the Installation Files, download the zip file <b>PHP 7.3.8</b> (php-7.3.8-nts-Win32-VC15-x86.zip) and extract the contents into the newly created PHP folder (C:\ PHP)</li>
       <ul>
-        <li><b>NOTE:</b> If a warning sign appears in the downloading icon in your browser, it means the Microsoft Defender Smartscreen in your VM is preventing you from downloading the zip file. If this happens, navigate the file your downloads and click on <b>Keep</b></li>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/2be3abda-6e52-44df-b253-ab4006c199cc" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-      </ul>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/f0ee0ae6-9b99-4810-a9d5-297ebc8f4a11" height="80%" width="60%" />
+   </p>
+     
+  </ul>
     <li>From the Installation Files, download and install <b>VC_redist.x86.exe</b></li>
     <li>From the Installation Files, download and install <b>MySQL 5.5.62</b> (mysql-5.5.62-win32.msi)</li>
       <ul>
