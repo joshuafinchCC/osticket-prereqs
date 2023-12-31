@@ -158,26 +158,50 @@ osTicket is an open source support ticketing system. This tutorial will outline 
       </ul>
     
     
-  <li>In IIS Manager, go to <b>osTicket</b> and click on <b>PHP Manager</b> and click on <b>Enable or disable extensions</b> and enable the following extensions</li>
+  <li>In IIS Manager, go to <b>osTicket</b> and click on <b>PHP Manager</b> -> <b>Enable or disable extensions</b> and enable the following extensions</li>
       <ul>
         <li>php_imap.dll</li>
         <li>php_intl.dll</li>
         <li>php_opcache.dll</li>
       </ul>
-    <li>Refresh osTicket Installer on your browser to see <b>PHP IMAP Extension</b> and <b>Intl Extensions</b> are checked signifying the extensions are installed</li>
-    <li>After configurations locate the php file <b>ost-sampleconfig.php</b> inside the directory <b>C:\inetpub\wwwroot\osTicket\include\</b> and rename it to <b>ost-config.php</b> because osTicket Installer needs to interact with this file</li>
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/b21a5b81-651d-4f9a-b318-d04b17a06837" height="80%" width="80%" />
+   </p>
+      
+   <li>Refresh osTicket Installer on your browser to see <b>PHP IMAP Extension</b> and <b>Intl Extensions</b> are checked signifying the extensions are installed</li>
+   
+  <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/89675ac1-00b4-45df-859e-d00ed1524fae" height="60%" width="40%" />
+   </p>
+    
+   <li>Locate the php file <b>ost-sampleconfig.php</b> inside the directory <b>C:\inetpub\wwwroot\osTicket\include\</b> and rename it to <b>ost-config.php</b> because osTicket Installer needs to interact with this file</li>
     <li>Now go to the <b>Properties</b> of the ost-config file and go to the <b>Advanced</b> settings in <b>Security</b> and <b>Disable Inheritance</b> to remove all inheritance permissions from the file (essentially making a "clean" object)</li>
-    <li>Now add a new Permission, then click on <b>Select a principal</b> and for a new object type "everyone" the click on <b>Check Names</b> to set the Group and click OK. Then check all the boxes on Basic Permissions and then click OK. Now everyone using osTicket should have full permission to use it</li>
-    <li>Head to osTicket on your browser and click on <b>Continue</b> then set your <b>System Settings</b> and <b>Admin User</b> until you get to <b>Database Settings</b></li>
+
+  <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/310c6a82-27c5-4605-a941-597c060036cb" height="60%" width="40%" />
+   </p>
+   
+  <li>Now add a new Permission, then click on <b>Select a principal</b> and for a new object type "everyone" the click on <b>Check Names</b> to set the Group and click OK. Then check all the boxes on Basic Permissions and then click OK. Now everyone using osTicket should have full permission to use it</li>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/afec45b5-c976-4053-8a5c-d8167e3c8d2f" height="60%" width="40%" />
+   </p>
+  
+   <li>Head to osTicket on your browser and click on <b>Continue</b> then set your <b>System Settings</b> and <b>Admin User</b> until you get to <b>Database Settings</b></li>
       <ul>
-        <li>For login information, you can set it to a fake email such as "yourname@helper.com", again it is recommended to have a notepad to keep your usernames and passwords on the standby</li>
+        <li>Your email and usernames can be whatever you want (i.e "yourname@helper.com"), it is recommended to have a notepad to keep your usernames and passwords ready</li>
       </ul>
     <li>From the Installation Files, download and install <b>HeidiSQL</b></li>
-      <ul>
+
+  <ul>
         <li>Go through basic setup then launch HeidiSQL and create a New Session using the username "root" and password "Password1"</li>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e4be70d7-c458-4274-95bb-6f53f8ecde98" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+       <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/49f01967-4f35-41ea-9559-211ea2bdcf4e" height="60%" width="40%" />
+   </p>
         <li>You should see this once connected</li>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e04f8a37-4c5c-49da-b16b-c882470f2cdb" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+        <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/a9280c2f-4ae4-4189-9907-13b58abf50fa" height="80%" width="80%" />
+   </p>
         <li>Create a Database and name it <b>osTicket</b></li>
       </ul>
     <li>Once connected, go back to osTicket Installer type in our username and password into the respected fields in Database Settings</li>
