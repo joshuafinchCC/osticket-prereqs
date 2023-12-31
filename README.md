@@ -126,8 +126,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 <p align="center">
         <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/37b33164-dd38-4e35-a489-25198a448d1b" height="80%" width="80%" />
    </p>
-      
-    </ul>
+      </ul>
     <li>Optional but Recommened: Refresh the IIS Manager Server by going to <b>Actions</b> and under <b>Manage Server</b> click on <b>Restart</b></li>
   </ul>
 </p>
@@ -139,17 +138,27 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 <p>
   <ul>
     <li>From the Installation Files, download and install <b>osTicket v1.15.8.zip</b></li>
-    <li>Extract the <b>upload</b> folder from the zip file and copy the folder into the directory <b>C:\inetpub\wwwroot</b> in your VM</li>
+    <li>Extract the <b>upload</b> folder from the zip file and copy the folder into the directory <b>C:\inetpub\wwwroot</b> in your VM. Afterwards, rename it to <b>osTicket</b> and refresh the IIS manager</li>
       <ul>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/0f1b83b3-86df-450c-bd22-e9369fcacf0b" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+      <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/c331e4aa-7997-4697-b8bc-54cba0d39a64" height="80%" width="80%" />
+   </p>
       </ul>
-    <li>Rename the upload folder we've copied into wwwroot to <b>osTicket</b>, then reload IIS Manager</li>
-    <li>In IIS Manager, expand the connection <b>Sites</b> then <b>Default Web Site</b> to click and highlight <b>osTicket</b>. Then, navigate to <b>Browse Folder</b> and click on <b>Browser*.80 (http)</b></li>
-    <li>The page for osTicket Installer should now pop up, if it does not, check your directories of your files and folders</li>
+    <li>In IIS Manager, click the <b>Sites</b> dropdown, then expand <b>Default Web Site</b> and select the <b>osTicket</b> folder. Then, on the right, navigate to <b>Browse Folder</b> and click on <b>Browser*.80 (http)</b></li>
+
+  <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/e38fee10-0636-4d82-8b9a-2156f52d9850" height="80%" width="80%" />
+   </p>
+    
+  <li>The page for osTicket Installer should now pop up. If not, check your directories of your files and folders</li>
       <ul>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/0e213a5c-e82c-4e1c-b187-b6e53aeb9af2" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+        <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/71b6538e-f921-4e51-8b1d-9076d6627184" height="80%" width="80%" />
+   </p>
       </ul>
-    <li>In IIS Manager, go to <b>osTicket</b> and click on <b>PHP Manager</b> and click on <b>Enable or disable extensions</b> and enable the following extensions</li>
+    
+    
+  <li>In IIS Manager, go to <b>osTicket</b> and click on <b>PHP Manager</b> and click on <b>Enable or disable extensions</b> and enable the following extensions</li>
       <ul>
         <li>php_imap.dll</li>
         <li>php_intl.dll</li>
@@ -196,6 +205,12 @@ osTicket is an open source support ticketing system. This tutorial will outline 
     <li>Set the permissions of <b>ost-config.php</b> to "read only" (have only the Read and Read and Execute boxes checked)</li>
   </ul>
 </p>
+
+
+
+  <p align="center">
+        <img src="" height="80%" width="80%" />
+   </p>
 
 <br />
 
