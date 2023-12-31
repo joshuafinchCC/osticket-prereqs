@@ -238,4 +238,4 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 
 <br />
 
-<h3 align = "right">Next Tutorial - <a href="">osTicket - Post-Install Configuration</a></h3>
+<h3 align = "right">Next Tutorial - <a href="https://github.com/joshuafinchCC/osticket-installation">osTicket - Post-Install Configuration</a></h3>
