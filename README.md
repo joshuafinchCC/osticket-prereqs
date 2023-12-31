@@ -51,21 +51,18 @@ osTicket is an open source support ticketing system. This tutorial will outline 
     <li>Under <b>Program and Features</b> click on <b>Turn Windows features on or off</b></li>
     <li>Scroll down the list and check the box for <b>Internet Information Services</b></li>
     <li>Expand the list for <b>Internet Information Services</b>, navigate to <b>World Wide Web Services</b> then expand that to find <b>Application Development Features</b>, and check the box for <b>CGI</b>.</li>
-    <li>Before closing, make sure the boxes under <b>Common HTTP Features</b> in World Wide Web Services are checked.</li>
+    <li>Before selecting OK, make sure the boxes under <b>Common HTTP Features</b> in World Wide Web Services are checked.</li>
      
+   <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/179de16a-ff86-413e-b38c-b9aed3bd4024" height="80%" width="80%"/>
+   </p>
     
-    
-    <ul>
-        <li><b>Check these boxes in Turn Windows Features on or off</b></li>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e770403c-5def-4c58-a2ad-24b61a859078" height="50%" width="50%" alt="Disk Sanitization Steps"/></li>
-      </ul>
-    <li>To confirm everything is set accordingly, go to your browser in your VM and type in <b>127.0.0.1</b>, it should load the page to Internet Information Services</li>
+  <ul>
+    <li>To confirm all your settings are correct, go to your browser in your VM and type in <b>127.0.0.1</b>, it should load the page to Internet Information Services. This is basically a loopback address, running a page off of yourself</li>
       <ul>
-        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/b6fdbb5f-73c6-4aaf-ac8c-3e9690303d7b" height="50%" width="50%" alt="Disk Sanitization Steps"/></li>
-      </ul>
-  </ul>
-</p>
-
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/2e08c27f-449c-432a-8c82-b9286fbcba08" height="80%" width="60%" />
+   </p>
 
 <br />
 
@@ -73,7 +70,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 
 <p>
   <ul>
-    <li><b>NOTE:</b> Depending on your VM CPU and Google Drive's virus scanning system, downloads will be rather <i>slow</i></li>
+    <li><b>NOTE:</b> <i> Your download speeds will vary depending on the VM's CPU and Google Drive's virus scanning speed </i></li>
     <li>From the Installation Files, download <b>PHP Manager</b> (PHPManagerForIIS_V1.5.0.msi) and <b>Rewrite Module</b> (rewrite_amd64_en-US.msi) </li>
     <li>Create a Folder in your VM's C Drive and name it <b>PHP</b></li>
       <ul>
