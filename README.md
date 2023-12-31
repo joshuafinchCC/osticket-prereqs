@@ -24,13 +24,13 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 
 <h2>List of Prerequisites</h2>
 <ol>
-  <li>Set up an Azure Virtual Machine (VM) environment (Windows 10 4 vCPUs Recommended, guide <a href ="https://github.com/joshuafinchCC/VM-VN-RDC">here</a>)</li>
+  <li>Set up an Azure Virtual Machine (Windows 10 4 vCPUs Recommended, guide <a href ="https://github.com/joshuafinchCC/VM-VN-RDC">here</a>)</li>
   <li><a href = "https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">osTicket Installation Files</a> (Download these files on your Azure Virtual Machine) </li>
   <li>Enable IIS in I.S.S.</li>
   <li>Install Web Platform Installer</li>
   <li>Install MySQL and set up username and password</li>
     <ul>
-    <li>For this tutorial, we will set up our username and password as such:</li>
+    <li>For this tutorial, we will set up our username and password as:</li>
       <ul>
       <li>username: root</li>
       <li>password: Password1</li>
@@ -38,7 +38,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
     </ul>
   <li>Install C++ Redistributable</li>
   <li>Configure permissions and install osTicket</li>
-  <li>(OPTIONAL) Have a notepad on standby to keep track of usernames and passwords for this tutorial</li>
+  <li>(OPTIONAL) Notepad for login information</li>
 </ol>
 
 <h2>Installation Steps</h2>
@@ -47,12 +47,15 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 
 <p>
   <ul>
-    <li>In your VM, go to the <b>Control Panel</b> and head to <b>Programs</b>. </li>
+    <li>In your VM, go to the start menu and search <b>Control Panel</b>. Select <b>Programs</b> -> <b>Programs and Features</b>. </li>
     <li>Under <b>Program and Features</b> click on <b>Turn Windows features on or off</b></li>
-    <li>Navigate the list and check the box for <b>Internet Information Services</b></li>
-    <li>Expand the list for <b>Internet Information Services</b>, navigate to <b>World Wide Web Services</b> then expand that to find <b>Application Development Features</b>, expand that and check the box for <b>CGI</b>.</li>
+    <li>Scroll down the list and check the box for <b>Internet Information Services</b></li>
+    <li>Expand the list for <b>Internet Information Services</b>, navigate to <b>World Wide Web Services</b> then expand that to find <b>Application Development Features</b>, and check the box for <b>CGI</b>.</li>
     <li>Before closing, make sure the boxes under <b>Common HTTP Features</b> in World Wide Web Services are checked.</li>
-      <ul>
+     
+    
+    
+    <ul>
         <li><b>Check these boxes in Turn Windows Features on or off</b></li>
         <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e770403c-5def-4c58-a2ad-24b61a859078" height="50%" width="50%" alt="Disk Sanitization Steps"/></li>
       </ul>
