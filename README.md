@@ -231,9 +231,9 @@ osTicket is an open source support ticketing system. This tutorial will outline 
   <ul>
     <li>Delete the <b>setup</b> folder inside your osTicket folder inside wwwroot (C:\inetpub\wwwroot\osTicket\setup)</li>
     <li>Set the permissions of <b>ost-config.php</b> to "read only" (have only the Read and Read and Execute boxes checked)</li>
-
-As always, if you are exerpimenting with resources inside of Azure, remember to delete your resource groups when you are finished!
   </ul>
+
+ <b>As always, if you are exerpimenting with resources inside of Azure, remember to delete your resource groups when you are finished!</b>
 </p>
 
 <br />
