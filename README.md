@@ -178,7 +178,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
     <li>Now go to the <b>Properties</b> of the ost-config file and go to the <b>Advanced</b> settings in <b>Security</b> and <b>Disable Inheritance</b> to remove all inheritance permissions from the file (essentially making a "clean" object)</li>
 
   <p align="center">
-        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/310c6a82-27c5-4605-a941-597c060036cb" height="60%" width="40%" />
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/310c6a82-27c5-4605-a941-597c060036cb" height="80%" width="80%" />
    </p>
    
   <li>Now add a new Permission, then click on <b>Select a principal</b> and for a new object type "everyone" the click on <b>Check Names</b> to set the Group and click OK. Then check all the boxes on Basic Permissions and then click OK. Now everyone using osTicket should have full permission to use it</li>
@@ -231,6 +231,8 @@ osTicket is an open source support ticketing system. This tutorial will outline 
   <ul>
     <li>Delete the <b>setup</b> folder inside your osTicket folder inside wwwroot (C:\inetpub\wwwroot\osTicket\setup)</li>
     <li>Set the permissions of <b>ost-config.php</b> to "read only" (have only the Read and Read and Execute boxes checked)</li>
+
+As always, if you are exerpimenting with resources inside of Azure, remember to delete your resource groups when you are finished!
   </ul>
 </p>
 
