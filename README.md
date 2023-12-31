@@ -24,7 +24,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
 
 <h2>List of Prerequisites</h2>
 <ol>
-  <li>Set up an Azure Virtual Machine (VM) environment (Windows 10 4 vCPUs Recommended, guide <a href ="https://github.com/joshuafinchCC/VM-VN-RDC">here</a> </li>
+  <li>Set up an Azure Virtual Machine (VM) environment (Windows 10 4 vCPUs Recommended, guide <a href ="https://github.com/joshuafinchCC/VM-VN-RDC">here</a>)</li>
   <li><a href = "https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">osTicket Installation Files</a> (Download these files on your Azure Virtual Machine) </li>
   <li>Enable IIS in I.S.S.</li>
   <li>Install Web Platform Installer</li>
