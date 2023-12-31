@@ -202,7 +202,7 @@ osTicket is an open source support ticketing system. This tutorial will outline 
         <p align="center">
         <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/a9280c2f-4ae4-4189-9907-13b58abf50fa" height="80%" width="80%" />
    </p>
-        <li>Create a Database and name it <b>osTicket</b></li>
+        <li>In HeidiSQL, create a new database (right click on <i>Unnamed</i> -> Create new -> Database) and name it <b>osTicket</b></li>
       </ul>
     <li>Once connected, go back to osTicket Installer type in our username and password into the respected fields in Database Settings</li>
       <ul>
@@ -212,9 +212,13 @@ osTicket is an open source support ticketing system. This tutorial will outline 
       </ul>
     <li>Click <b>Install Now</b>, osTicket should now be fully installed on your VM!</li>
     <ul>
-      <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/f48259ba-ba8a-4bce-9cbe-a300903de8b2" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-      <li><a href = "http://localhost/osTicket/scp/login.php">Link to Help Desk Page</a></li>
-      <li><a href = "http://localhost/osTicket/">Link to End Users Page</a></li>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-prereqs/assets/155266044/8447191f-187d-4add-a751-12475e0b8b09" height="80%" width="80%" />
+   </p>
+      
+<li><a href = "http://localhost/osTicket/scp/login.php">Link to Help Desk Page</a></li>
+<li><a href = "http://localhost/osTicket/">Link to End Users Page</a></li>
     </ul>
   </ul>
 </p>
@@ -230,12 +234,6 @@ osTicket is an open source support ticketing system. This tutorial will outline 
   </ul>
 </p>
 
-
-
-  <p align="center">
-        <img src="" height="80%" width="80%" />
-   </p>
-
 <br />
 
-<h3 align = "right">Next Tutorial - <a href="https://github.com/ColtonTrauCC/post-install-config">osTicket - Post-Install Configuration</a></h3>
+<h3 align = "right">Next Tutorial - <a href="">osTicket - Post-Install Configuration</a></h3>
